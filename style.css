@@ -140,8 +140,8 @@ body{
       background-color: black;
     color: white;
     border: 0px;
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 
 
