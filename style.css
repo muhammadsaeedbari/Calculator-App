@@ -128,6 +128,9 @@ body{
 }
 
 #result{
+
+    font-size: 25px;
+    font-weight: 700;
       background-color: black;
     color: white;
     border: 0px;
@@ -137,6 +140,9 @@ body{
 
 
 #result1{
+
+    font-size: 25px;
+    font-weight: 700;
       background-color: black;
     color: white;
     border: 0px;
