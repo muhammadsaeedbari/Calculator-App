@@ -1,0 +1,179 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100dvh;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+
+} 
+
+.masterviv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%; 
+    background: linear-gradient(to bottom, red, rgb(117, 117, 255));
+    
+        
+    
+}
+
+#calculator{
+<<<<<<< HEAD
+=======
+    min-height: 80%;
+    width: 90%; 
+    height:70%; 
+    max-width: 40vw; 
+    padding: 20px;
+    background-color: black;
+    border-radius: 20px;
+     
+>>>>>>> da6d66703d8b77a4c399188698ad0870b96ce6d8
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 20px;
+    
+    border-radius: 5px;
+    background-color: black;
+    
+   
+    width: 95%;           
+    max-width: 400px;     
+    height: auto;         
+    max-height: 90vh;   
+    
+     
+
+}
+
+#screen{
+    
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: gray;
+   padding: 2px;
+   box-sizing: border-box; 
+    
+
+}
+
+
+#userinp{
+    outline: none;
+    padding: 3px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    border: 0px;
+
+}
+
+#output{
+    
+    padding: 3px;
+    outline: none;
+    font-size: 2rem;
+    text-align: end;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    border: 0px;
+
+}
+
+#numpad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+#numbers{
+    
+    display: grid;
+    gap: 5px 5px;
+    grid-template-columns: repeat(4 , 1fr); 
+    width: 100%; 
+    grid-template-rows: repeat(1fr);
+    
+    
+
+}
+#numButtons:hover , #result:hover{
+    box-shadow: 0px 0px 5px rgb(255, 0, 0 , 1); 
+}
+
+#numButtons {
+    
+    font-size: 25px;
+    font-weight: 700;
+    
+    height: 100%;
+    width: 100%;
+    width: auto;
+    border: 0px;
+    /* font-size: clamp(8px, 30px, 100px); */
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+
+
+}
+
+#result{
+      background-color: black;
+    color: white;
+    border: 0px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

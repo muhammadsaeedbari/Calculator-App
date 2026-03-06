@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="masterviv">
+      <div id="calculator">
+
+        <div id="screen">
+          <input type="text" name="" id="userinp" value="" />
+          <input type="text" name="" id="output" value="" />
+        </div>
+
+        <div id="numpad">
+            
+          <div id="numbers">
+            <input id="numButtons" type="button" onclick="userClick(this.value)" value="7">
+            <input id="numButtons" type="button" onclick="userClick(this.value)" value="8">
+            <input id="numButtons" type="button" onclick="userClick(this.value)" value="9">
+            <input id="numButtons" type="button" onclick="userClick('/')" value="&divide;">
+            <input id="numButtons" type="button" onclick="userClick(this.value)" value="4">
+            <input id="numButtons" type="button" onclick="userClick(this.value)" value="5">
+            <input id="numButtons" type="button" onclick="userClick(this.value)" value="6">
+            <input id="numButtons" type="button" onclick="userClick('*')" value="&times;">
+            <input id="numButtons" type="button" onclick="userClick(this.value)" value="1">
+            <input id="numButtons" type="button" onclick="userClick(this.value)" value="2">
+            <input id="numButtons" type="button" onclick="userClick(this.value)" value="3">
+            <input id="numButtons" type="button" onclick="userClick('+')" value="&plus;">
+            <input id="numButtons" type="button" onclick="userClick(this.value)" value="0">
+
+
+
+            
+            <input id="numButtons" type="button" onclick="userClick(this.value)" value="&middot;">
+            <input id="numButtons" type="button" onclick="rootnum()" value="&radic;">    
+
+            <input id="numButtons" type="button" onclick="userClick('-')" value="&minus;">
+            <input id="numButtons" type="button" onclick="clearAll()" value="C">
+            <input id="result" type="button" onclick="calculate()" value="=">
+            
+            
+            
+
+            
+        </div>
+          
+        </div> 
+
+
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
