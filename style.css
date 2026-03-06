@@ -127,15 +127,15 @@ body{
 
 }
 
-/* #result{
+#result{
       background-color: black;
     color: white;
     border: 0px;
-    grid-column-start: 2;
-    grid-column-end: 4;
-} */
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
 
-
+/* 
 #result1{
       background-color: black;
     color: white;
@@ -143,7 +143,7 @@ body{
     grid-column-start: 2;
     grid-column-end: 4;
 }
-
+ */
 
 
 
