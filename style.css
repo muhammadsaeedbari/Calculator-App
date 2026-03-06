@@ -51,7 +51,7 @@ body{
    justify-content: center;
    align-items: center;
    background-color: gray;
-   padding: 2px;
+   padding: 0px;
    box-sizing: border-box; 
     
 
@@ -67,6 +67,7 @@ body{
     background-color: rgb(36, 35, 35);
     color: white;
     border: 0px;
+    padding: 3px;
 
 }
 
@@ -141,6 +142,10 @@ body{
 
 #result{
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9b269af (first commit)
     font-size: 25px;
     font-weight: 700;
       background-color: black;
@@ -182,5 +187,8 @@ body{
 
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 9b269af (first commit)
