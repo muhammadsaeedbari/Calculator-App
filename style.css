@@ -105,7 +105,7 @@ body{
     
 
 }
-#numButtons:hover , #result:hover{
+#numButtons:hover , #result:hover , #result1:hover{
     box-shadow: 0px 0px 5px rgb(255, 0, 0 , 1); 
 }
 
@@ -131,11 +131,11 @@ body{
       background-color: black;
     color: white;
     border: 0px;
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-start: 0;
+    grid-column-end: 2;
 }
 
-/* 
+
 #result1{
       background-color: black;
     color: white;
@@ -143,7 +143,7 @@ body{
     grid-column-start: 2;
     grid-column-end: 4;
 }
- */
+ 
 
 
 
