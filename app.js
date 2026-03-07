@@ -18,7 +18,7 @@ function calculate(){
         output.value = "Math Error"
     }
     else{
-        output.value= eval(userinp.value).toLocaleString()
+        output.value= eval(userinp.value.replace(/\b0+(?=\d)/g, '')).toLocaleString()
         console.log(output.value)    
     }
    }
@@ -53,10 +53,21 @@ function rootnum() {
 }
 
 function clearOne(){
-    console.log("Work");
-    userinp.value = (userinp.value.slice(0, -1));
-    output.value = userinp.value;
-    //userinp.innetText = userinp.value;
+
+    var slicedValue = output.value.slice(0, -1).replace(/,/g , "");
+    
+
+    var x = Number(slicedValue)
+
+    
+    userinp.value = x.toLocaleString()
+    output.value = userinp.value
+    if(userinp.value ==="0" && output.value === "0"){
+        userinp.value = ""
+        output.value = ""
+    }
+
 }
+
 
 
